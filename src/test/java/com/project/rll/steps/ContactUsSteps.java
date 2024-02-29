@@ -83,7 +83,7 @@ public class ContactUsSteps {
 		String actualurl = cp.validate_Url();
 		if (actualurl.equals(expected)) {
 			System.out.println("captha page encountered");
-			//Assert.assertEquals(actualurl, expected);
+			Assert.assertEquals(actualurl, expected);
 
 		}
 
