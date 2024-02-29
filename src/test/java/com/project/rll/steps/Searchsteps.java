@@ -41,6 +41,7 @@ public class Searchsteps {
     }
     @Then("validate {string} are found or not")
     public void validateresults_are_found_or_not(String string) {
+	    logger.info("validate results are found or not");
        
         
         String actualTitle = searchPage.checkTitle();
