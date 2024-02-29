@@ -115,7 +115,7 @@ public class cart {
 	    
 		String Actual = pages.getCount();
 		String expected = "(5)";
-		//Assert.assertEquals(Actual, expected);
+		Assert.assertEquals(Actual, expected);
 	}
 
 
