@@ -30,23 +30,7 @@ import org.openqa.selenium.WebElement;
 	    
 	    public String checkTitle() {
 	    	return driver.getTitle();
-	    }
-
-		
-
-	    public boolean isResultFound(String searchTerm) {
-	        
-	        if (performSearch(searchTerm)) {
-	            return true;
-	        } else {
-	            return false;
-	        }
-	    }
-
 	   
-	    public boolean performSearch(String searchTerm) {
-	       
-	        return searchTerm.equals("existingTerm");
 	    }
 		
 		
