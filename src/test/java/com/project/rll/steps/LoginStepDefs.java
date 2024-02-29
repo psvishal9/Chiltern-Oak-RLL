@@ -57,7 +57,7 @@ public class LoginStepDefs {
 	public void verify_user_is_able_to_login_checking(String loginDetails) {
 		logger.info("Message Should Be Displayed");
 
-		//Assert.assertEquals(lp.validateUrl(), loginDetails);
+		Assert.assertEquals(lp.validateUrl(), loginDetails);
 	}
 
 }
