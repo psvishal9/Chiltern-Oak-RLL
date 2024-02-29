@@ -54,7 +54,7 @@ public class SubscribeSteps {
 		String expected = url;
 		String actual = subscribePage.getUrl();
 
-		//Assert.assertEquals(expected, actual);// False To True Assert.assertFalse(actual.contains(expected));
+		Assert.assertEquals(expected, actual);// False To True Assert.assertFalse(actual.contains(expected));
 
 	}
 }
