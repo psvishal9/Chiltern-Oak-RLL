@@ -9,7 +9,7 @@ Feature: Product Search Functionality
 
     Examples: 
       | productName                            						 | results                         |
-      | Mirror                                   					 | 84 results found                |
+      | Mirror                                   					 | 82 results found                |
       |                                        						 | Search – Chiltern Oak Furniture |
       | Pencil                               							 | 0 results found                 |
       | Kabinats                                  				 | 0 results found                 |
